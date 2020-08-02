@@ -1,7 +1,7 @@
 {
     "name": "stock-alerts",
     "version": "1.0.0",
-    "description": "",
+    "description": "Processing the 15 min stock data to understand how it can be used",
     "main": "index.js",
     "scripts": {
         "start": "node -r esm app.js",
@@ -11,12 +11,12 @@
     "license": "ISC",
     "dependencies": {
         "@koa/router": "9.3.1",
-        "axios": "^0.19.2",
+        "axios": "0.19.2",
         "esm": "3.2.25",
         "kiteconnect": "^3.1.0",
         "koa": "2.13.0",
         "koa-bodyparser": "4.3.0",
-        "lodash": "^4.17.19",
+        "lodash": "4.17.19",
         "mongoose": "5.9.25"
     }
 }
