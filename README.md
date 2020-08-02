@@ -1,5 +1,9 @@
 # Stock Alerts
 
+### Zerodha Authentication
+
+All the APIs for fetching data will require `api_key` and `access_token`. Due to regulatory compliance `access_token` will need to be generated every day. Once we login to kite api with the API Key it will call our application on `/zerodha` end point with the `access_token` which gets saved in the database. So, if the authication failed or not done then none of the furhter next calls will be done.
+
 ### Data Models
 
 ##### Stocks
@@ -27,4 +31,6 @@
 	Indicator Type - Enum
 	Value
 	
-##### 
+##### Config
+	Key
+	Value

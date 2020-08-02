@@ -1,2 +1,9 @@
 node_modules
 yarn-error.log
+
+# Will have the env variables and the start command
+run-app.sh
+
+# Local packages via a different registry. Rather keeping the packages versions fixed
+yarn.lock
+package.lock

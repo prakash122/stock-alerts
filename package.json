@@ -1,18 +1,22 @@
 {
-  "name": "stock-alerts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r esm app.js"
-  },
-  "author": "mail@prakash.io",
-  "license": "ISC",
-  "dependencies": {
-    "@koa/router": "^9.3.1",
-    "esm": "^3.2.25",
-    "koa": "^2.13.0",
-    "koa-bodyparser": "^4.3.0"
-  }
+    "name": "stock-alerts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node -r esm app.js",
+        "env-start": "sh run-app.sh"
+    },
+    "author": "mail@prakash.io",
+    "license": "ISC",
+    "dependencies": {
+        "@koa/router": "9.3.1",
+        "axios": "^0.19.2",
+        "esm": "3.2.25",
+        "kiteconnect": "^3.1.0",
+        "koa": "2.13.0",
+        "koa-bodyparser": "4.3.0",
+        "lodash": "^4.17.19",
+        "mongoose": "5.9.25"
+    }
 }
