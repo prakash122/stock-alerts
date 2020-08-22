@@ -14,8 +14,8 @@ router.get('/load-historical-data', (ctx) => {
 });
 
 router.get('/track-stocks', (ctx) => {
-    // getQuote();
-    renewAccessToken();
+    getQuote();
+    // renewAccessToken();
     ctx.status = 200;
 });
 

@@ -12,6 +12,8 @@
     "dependencies": {
         "@koa/router": "9.3.1",
         "axios": "0.19.2",
+        "date-fns": "^2.15.0",
+        "es6-promise-pool": "^2.5.0",
         "esm": "3.2.25",
         "kiteconnect": "^3.1.0",
         "koa": "2.13.0",
