@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 export const stockPriceSchema = new mongoose.Schema({
     name: String,
     startTime: Date,
-    endTime: Date,
+    interval: String,
     createdAt: { type: Date, default: Date.now },
     open: Number,
     close: Number,
